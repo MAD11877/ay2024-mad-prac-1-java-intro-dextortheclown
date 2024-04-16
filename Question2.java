@@ -15,6 +15,6 @@ public class Question2
     //System.out.println("What is your weight in KG");
     double weight = in.nextDouble();
     double BMI = weight/Math.pow(height, 2);
-    System.out.println("BMI: " + BMI);
+    System.out.println(BMI);
   }
 }
