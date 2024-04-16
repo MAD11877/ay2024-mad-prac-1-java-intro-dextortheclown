@@ -18,6 +18,13 @@ public class Question4
      */
      
     Scanner in = new Scanner(System.in);
-    
+    //System.out.println("gimme number ")
+    int base = in.nextInt();
+    for (int i = base; i > 0; i--) {
+        for (int j = 0; j < i; j++) {
+            System.out.print("*");
+        }
+        System.out.println();
+    }
   }
 }
