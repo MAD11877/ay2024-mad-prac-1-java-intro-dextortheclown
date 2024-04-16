@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import Math
+import Math;
 
 public class Question2
 {
