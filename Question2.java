@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import Math
 
 public class Question2
 {
@@ -14,7 +15,7 @@ public class Question2
     double height = in.nextDouble();
     System.out.println("What is your weight in KG");
     double weight = in.nextDouble();
-    double BMI = weight/(height**2);
+    double BMI = weight/Math.pow(height, 2);
     System.out.println("BMI: " + BMI);
   }
 }
